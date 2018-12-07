@@ -55,6 +55,8 @@ See [Creating plugins][create] below.
     — sanitize HTML
 *   [`rehype-slug`](https://github.com/rehypejs/rehype-slug)
     — add `id`s to headings
+*.  [`rehype-urls`](https://github.com/brechtcs/rehype-urls) 
+    — write URLs of `href` and `src` attributes
 *   [`rehype-webparser`](https://github.com/Prettyhtml/prettyhtml/tree/master/packages/rehype-webparser)
     — less strict HTML parser
 
@@ -70,8 +72,7 @@ virtual files.
 ## Using plugins
 
 To use a plugin programmatically, invoke the [`use()`][unified-use]
-function.
-
+funct
 To use plugin with `rehype-cli`, pass a [`--use` flag][unified-args-use]
 or specify it in a [configuration file][config-file-use].
 
